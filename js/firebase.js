@@ -1,12 +1,12 @@
 // Initialize Firebase
 const firebaseConfig = {
-  apiKey: "AIzaSyBvC4zxqysTcLBMbgg-XGbxrngb_hzzdtA",
-  authDomain: "plethfashion.firebaseapp.com",
-  databaseURL: "https://plethfashion-default-rtdb.firebaseio.com",
-  projectId: "plethfashion",
-  storageBucket: "plethfashion.appspot.com",
-  messagingSenderId: "952864991182",
-  appId: "1:952864991182:web:2a1da983120c5c69ba2d9f",
+  apiKey: "AIzaSyBAthtioFbwRgi8MGHjDdLj9EuQQ7pIszk",
+  authDomain: "aussiecrisp.firebaseapp.com",
+  databaseURL: "https://aussiecrisp-default-rtdb.firebaseio.com",
+  projectId: "aussiecrisp",
+  storageBucket: "aussiecrisp.firebasestorage.app",
+  messagingSenderId: "293141615430",
+  appId: "1:293141615430:web:a7920c3c0b8fdfad1e0b47",
 };
 firebase.initializeApp(firebaseConfig);
 const appCheck = firebase.appCheck();
