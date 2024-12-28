@@ -1,13 +1,13 @@
 // Initialize Firebase
 const firebaseConfig = {
-  apiKey: "AIzaSyBAthtioFbwRgi8MGHjDdLj9EuQQ7pIszk",
-  authDomain: "aussiecrisp.firebaseapp.com",
-  databaseURL: "https://aussiecrisp-default-rtdb.firebaseio.com",
-  projectId: "aussiecrisp",
-  storageBucket: "aussiecrisp.firebasestorage.app",
-  messagingSenderId: "293141615430",
-  appId: "1:293141615430:web:a7920c3c0b8fdfad1e0b47",
-}; 
+  apiKey: "AIzaSyBzy9bLWcBVhOD4mzQsDgyIbN246UtY9Io",
+  authDomain: "ausdute.firebaseapp.com",
+  databaseURL: "https://ausdute-default-rtdb.firebaseio.com",
+  projectId: "ausdute",
+  storageBucket: "ausdute.firebasestorage.app",
+  messagingSenderId: "213670309441",
+  appId: "1:213670309441:web:214c92a8ca44ace7baa0c0"
+};
 firebase.initializeApp(firebaseConfig);
 const appCheck = firebase.appCheck();
 console.log(appCheck);
