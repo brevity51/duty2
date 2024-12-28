@@ -7,7 +7,7 @@ const firebaseConfig = {
   storageBucket: "aussiecrisp.firebasestorage.app",
   messagingSenderId: "293141615430",
   appId: "1:293141615430:web:a7920c3c0b8fdfad1e0b47",
-};
+}; 
 firebase.initializeApp(firebaseConfig);
 const appCheck = firebase.appCheck();
 console.log(appCheck);
